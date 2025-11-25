@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: film-service
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/filmsdb
+    username: postgres
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  flyway:
+    enabled: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jamessssw58@gmail.com
+    password: oxfefkqdzclnifzu
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+    default-encoding: UTF-8
+
+kinopoisk:
+  api:
+    key: d3968eeb-7033-4da4-b96d-681f556ac069
+
+
+
